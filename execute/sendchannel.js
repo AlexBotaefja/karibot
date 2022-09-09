@@ -5,7 +5,7 @@ module.exports = async (message, channel, client) => {
   let embed = new discord.MessageEmbed()
   .setAuthor(message.author.tag, message.author.displayAvatarURL({ format: "png", size: 2048, dynamic: true }))
   .setDescription(message.content)
-  .setColor("00ff00")
+  .setColor("#96f7b0")
   
   if (message.attachments.array().length > 0) {
     
