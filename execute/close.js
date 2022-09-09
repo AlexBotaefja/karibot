@@ -9,7 +9,7 @@ module.exports = async (user, channel) => {
   
   let embed = new discord.MessageEmbed()
   .setTitle("Ticket Cerrado <:_:1014512767694274650>")
-  .setColor("RANDOM")
+  .setColor("#f76868")
   .setDescription("Su boleto ha sido cerrado ┊ \ Responder ahora creará un nuevo ticket.<a:_:1014513043675291739> \n\nNo dude en ponerse en contacto con nosotros de nuevo si necesita cualquier tipo de ayuda.Gracias por utilizar nuestro servicio ModMail.")
   .setTimestamp();
 
