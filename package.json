@@ -1,0 +1,19 @@
+{
+  "name": "modmail",
+  "version": "1.0.0",
+  "description": "`ModMail`'s bot is the best way to **Member's** contact with you, and the team of support can't have problems with **Mention**",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "express": "^4.17.2",
+    "ms": "^2.1.3",
+    "quick.db": "^7.1.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
