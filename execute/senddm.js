@@ -4,7 +4,7 @@ module.exports = async (message, args, user, channel, anonymous, client) => {
   
   let embed = new discord.MessageEmbed()
   .setDescription(args.join(" "))
-  .setColor("#5865F2")
+  .setColor("#96f7b0")
   
   if (message.attachments.array().length > 0) {
      embed.setImage(message.attachments.array()[0].url)
