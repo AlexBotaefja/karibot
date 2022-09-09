@@ -88,7 +88,7 @@ module.exports = async (message, client) => {
        
        ticket.send(newticket).then(m => m.pin()).catch(() => {})
      
-     message.author.send("Has creado un ticket, espera a que un moderador atienda tu caso. Mientras tanto, describe en qué te podemos ayudar y eventualmente te ayudarán.<:_:1014350082214211615>").catch(() => {})
+     message.author.send("Has creado un ticket, espera a que un moderador atienda tu caso. Mientras tanto, describe en qué te podemos ayudar y eventualmente te ayudarán.<:_:1014512767694274650>").catch(() => {})
      
      db.set(`ticket_${message.author.id}`, ticket.id)
      db.set(`ticket_${ticket.id}`, message.author.id)
