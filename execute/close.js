@@ -8,9 +8,9 @@ module.exports = async (user, channel) => {
   let channeldata = db.get(`ticket_${channel.id}`)
   
   let embed = new discord.MessageEmbed()
-  .setTitle("Ticket Cerrado <:_:1014512767694274650>")
+  .setTitle("Ticket Cerrado <a:_:1007628497373646940>")
   .setColor("#f76868")
-  .setDescription("Su boleto ha sido cerrado ┊ \ Responder ahora creará un nuevo ticket.<a:_:1014513043675291739> \n\nNo dude en ponerse en contacto con nosotros de nuevo si necesita cualquier tipo de ayuda.Gracias por utilizar nuestro servicio ModMail.")
+  .setDescription("Su boleto ha sido cerrado ┊ \ Responder ahora creará un nuevo ticket.<:_:1007624728447561789> \n\nNo dude en ponerse en contacto con nosotros de nuevo si necesita cualquier tipo de ayuda.Gracias por utilizar nuestro servicio ModMail.")
   .setTimestamp();
 
   if (userdata !== null) {
