@@ -5,6 +5,8 @@ const ms = require("ms")
 
 module.exports = async (message, client) => {
   
+  message.channel.send(`<@${message.author.id}>`)
+  
   if (message.channel.type === "text" && !message.author.bot) {
   
   if (message.author.bot || !message.content.startsWith(config.prefix)) return;
