@@ -7,8 +7,6 @@ module.exports = async (user, channel) => {
   
   let channeldata = db.get(`ticket_${channel.id}`)
   
-  message.channel.send("Hola")
-  
   let embed = new discord.MessageEmbed()
   .setTitle("Ticket Cerrado <:_:1007629337287204894>")
   .setColor("#eb0707")
