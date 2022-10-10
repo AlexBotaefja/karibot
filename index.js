@@ -32,4 +32,4 @@ client.on("message", async message => {
 })
 
 
-client.login("OTg4NjMxNDI1MzU4MTM1MzU4.GoQ5a9.LQYnr2WASIJFGXMaQwNsSaZVn_VHba4Mfhi97g");
+client.login("OTg4NjMxNDI1MzU4MTM1MzU4.GMvOeX.DSO4tLMKf9v6p0fLQVeWIKI_AlF6t8O9IGp96g");
