@@ -4,7 +4,7 @@ module.exports = async (message, args, user, channel, anonymous, client) => {
   
   let embed = new discord.MessageEmbed()
   .setDescription(args.join(" "))
-  .setColor("#0feb07")
+  .setColor("#12c550")
   .setFooter("El mal uso de este medio conllevará una sanción ┊ El staff nunca te preguntará por tu correo, contraseña, números telefónicos y/o tokens")
   
   if (message.attachments.array().length > 0) {
